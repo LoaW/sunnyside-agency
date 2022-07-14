@@ -68,91 +68,92 @@
 }
 
 
-
-//section 1
-.section1{
+//section des deux premières cases
+.section1 {
     display: flex;
     height: 350;
-}
+  
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    .left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+        h1 {
+            font-size: 45px;
+            margin-bottom: 30px;
+            font-weight: bold;
+        } 
+  
+      p {
+        color: #7c7c7c;
+      }
+    }
+  
+    .text-container { 
+        width: 70%;
 
-.section1 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.section1 .left{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.section1 .left h1{
-    font-size: 45px;
-    margin-bottom: 30px;
-    font-weight: bold;
-}
-
-.section1 .left p{
-    color: #7c7c7c;
-}
-
-.section1 .text-container img{
-    width: 35%;
-    height: auto;
-    margin-top: 30px;
-}
-
-.section1 .text-container {
-    width: 70%;
-}
- 
-.section1 .left, .right{
-    flex: 1; // flex-grow: 1, flex-shrink: 1, flex-basis: 0
-}
+      img {
+        width: 35%;
+        height: auto;
+        margin-top: 30px;
+      }
+    }
+    
+    .left, .right {
+      flex: 1; // = flex-grow: 1, flex-shrink: 1, flex-basis: 0
+    }
+  }
 
 
 // section 2
-.section2{
+.section2 {
     display: flex;
     height: 350;
-}
+  
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    .right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
+        font-weight: bold;
+      }
+  
+      p {
+        color: #7c7c7c;
+      }
+    }
+  
+    .text-container {
+        width: 70%;
 
-.section2 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.section2 .right{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.section2 .right h1{
-    font-size: 45px;
-    margin-bottom: 30px;
-    font-weight: bold;
-}
-
-.section2 .right p{
-    color: #7c7c7c;
-}
-
-.section2 .text-container img{
-    width: 35%;
-    height: auto;
-    margin-top: 30px;
-}
-
-.section2 .text-container {
-    width: 70%;
-}
- 
-.section2 .left, .right{
-    flex: 1;
-}
+      img {
+        width: 35%;
+        height: auto;
+        margin-top: 30px;
+      }
+    }
+  
+    .left, .right {
+      flex: 1;
+    }
+  }
+  
+  
 // section 3 test
 
 .section3{
