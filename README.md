@@ -2,4 +2,4 @@
 
 ## Version 1.0
 
-Aperçu [ici](https://github.com/LoaW/sunnyside-agency)
+Aperçu [ici](https://loaw.github.io/sunnyside-agency/)
